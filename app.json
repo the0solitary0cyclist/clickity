@@ -1,8 +1,7 @@
-{
-  {
-  "image": "cypress/included:4.4.0",
-},
-{
-  "stack": "container"
+ "stack": "container",
+ "image": "cypress/included:4.4.0",
+  "formation": {
+    "worker": {
+      "quantity": 1
+    }
   }
-}
