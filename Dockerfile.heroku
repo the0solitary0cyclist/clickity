@@ -1,3 +1,4 @@
-FROM cypress/included:4.4.0
+FROM cypress/included:8.2.0
 COPY . /e2e
 WORKDIR /e2e
+RUN \ wget https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-beta/microsoft-edge-beta_93.0.961.18-1_amd64.deb && \ dpkg -i microsoft-edge-beta_93.0.961.18-1_amd64.deb
