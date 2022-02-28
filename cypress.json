@@ -1,5 +1,3 @@
 {
-  "pluginsFile": false,
-  "supportFile": false,
   "chromeWebSecurity" : false
 }
