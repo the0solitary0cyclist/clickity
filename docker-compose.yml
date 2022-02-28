@@ -1,0 +1,3 @@
+version: '3.2'
+  cypress:
+    image: "cypress/included:4.4.0"
